@@ -11,7 +11,11 @@ O [notebook LM](https://notebooklm.google.com) é uma ferramenta de IA criada pe
 ## 🧐 Processo de Criação
 Criei um novo notebook na ferramenta **NotebookLM**, que disponibilizou uma caixa de prompt para entrada de comandos. Nela, digitei a seguinte solicitação: *"Busca o lançamento e novidades sobre o Ruby 4.0"*, e optei por realizar uma busca aprofundada para obter informações mais detalhadas.
 
+![alt text](<src/area do prompt da tela do notebookLM.png>)
+
 Após o processamento completo dos dados pelo NotebookLM, acessei o painel lateral esquerdo, chamado Estúdio, onde selecionei as opções para gerar dois tipos de resumo: um em áudio e outro em vídeo. Ambos os resumos foram gerados com base nas informações coletadas e, ao final, realizei o download dos arquivos e os anexei ao projeto.
+
+![alt text](<src/Area de trabalho do notebookLM.png>)
 
 > Usei o **Microsoft Copilot** para revisar o texto e deixar o mais explicativo
 ## 🚀 Resultados
