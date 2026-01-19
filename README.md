@@ -1,4 +1,6 @@
-# Título do Projeto Novidades do Ruby 4.0
+# Novidades do Ruby 4.0
+
+![alt text](src/thumbnail.png)
 
 ## 📒 Descrição
 
@@ -6,16 +8,30 @@ O [notebook LM](https://notebooklm.google.com) é uma ferramenta de IA criada pe
 
 ## 🤖 Tecnologias Utilizadas
 - IA Generativa **[notebook LM](https://notebooklm.google.com)** para levantar as fontes de conecimento e gerar um podcast e video resumo sobre as atualizações do Ruby 4.0;
-- IA Generativa **[Microsoft Copilot](https://copilot.microsoft.com/)** para elaborar e revisar o texto;
+- IA Generativa **[Microsoft Copilot](https://copilot.microsoft.com/)** para elaborar e revisar o texto e gerar a thumbnail;
+- IA Generativa **[Chat GPT](https://chatgpt.com/)** para elaborar prompts para gerar imagem e gerar imagens;
 
 ## 🧐 Processo de Criação
-Criei um novo notebook na ferramenta **NotebookLM**, que disponibilizou uma caixa de prompt para entrada de comandos. Nela, digitei a seguinte solicitação: *"Busca o lançamento e novidades sobre o Ruby 4.0"*, e optei por realizar uma busca aprofundada para obter informações mais detalhadas.
+
+### Video e Poscast
+
+Para iniciar o processo, criei um novo notebook na ferramenta **NotebookLM**. Assim que o notebook foi aberto, a plataforma disponibilizou uma caixa de prompt para inserir comandos. Nessa área, solicitei: *"Busque o lançamento e as novidades sobre o Ruby 4.0"*. Também selecionei a opção de busca aprofundada, garantindo que o sistema reunisse informações mais completas e detalhadas sobre o tema.
 
 ![alt text](<src/area do prompt da tela do notebookLM.png>)
 
-Após o processamento completo dos dados pelo NotebookLM, acessei o painel lateral esquerdo, chamado Estúdio, onde selecionei as opções para gerar dois tipos de resumo: um em áudio e outro em vídeo. Ambos os resumos foram gerados com base nas informações coletadas e, ao final, realizei o download dos arquivos e os anexei ao projeto.
+Depois que o NotebookLM concluiu todo o processamento, acessei o painel lateral esquerdo — chamado Estúdio. Nesse espaço, escolhi gerar dois tipos de resumo a partir das informações coletadas:
+
+- um resumo em áudio (podcast)
+- um resumo em vídeo
+
+Ambos foram criados automaticamente pela ferramenta. Em seguida, fiz o download dos arquivos gerados e os anexei ao projeto.
 
 ![alt text](<src/Area de trabalho do notebookLM.png>)
+
+### Thumbnail
+
+Para criar a thumbnail, utilizei o **ChatGPT**. Primeiro, pedi que ele gerasse um prompt baseado em uma foto pessoal, de modo que minhas características fossem preservadas. Com esse prompt, solicitei a criação de uma imagem em um ambiente de trabalho, exibindo na tela um código em Ruby (que eu mesmo escrevi).
+Após receber a primeira versão, pedi que a imagem fosse convertida para um estilo cartoon, resultando na arte final utilizada no projeto.
 
 > Usei o **Microsoft Copilot** para revisar o texto e deixar o mais explicativo
 ## 🚀 Resultados
